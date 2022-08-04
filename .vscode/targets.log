@@ -1,0 +1,1849 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# ���� ������ Make, ���������� Thu Aug 04 18:06:56 2022
+
+# ����������
+
+# ��������������
+<D = $(patsubst %/,%,$(dir $<))
+# ��������������
+?F = $(notdir $?)
+# ���������� � �����
+CARBON_MEM_DISABLE = 1
+# Make-���� (from `makefile', line 156)
+LDSCRIPT = STM32F103RBTx_FLASH.ld
+# Make-����
+MAKEFLAGS = Rrqp
+# Make-���� (from `makefile', line 16)
+TARGET = IEOS_demo_v0
+# ��������������
+?D = $(patsubst %/,%,$(dir $?))
+# ���������� � �����
+PLATFORMIO_IDE = 2.5.1
+# Make-���� (from `makefile', line 114)
+AS_DEFS = 
+# Make-���� (from `makefile', line 123)
+AS_INCLUDES = -ICore\Inc
+# ��������������
+@D = $(patsubst %/,%,$(dir $@))
+# ���������� � �����
+HOMEDRIVE = C:
+# ��������������
+@F = $(notdir $@)
+# ��������������
+^D = $(patsubst %/,%,$(dir $^))
+# Make-����
+CURDIR := g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test
+# �� ���������
+SHELL := G:/ARM_tools/PortableGit-2.37.1/bin/sh.exe
+# Make-���� (from `makefile', line 95)
+BIN = $(CP) -O binary -S
+# ���������� � �����
+WINDIR = C:\WINDOWS
+# ���������� � �����
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# ���������� � �����
+FP_NO_HOST_CHECK = NO
+# Make-���� (from `makefile', line 92)
+SZ = $(PREFIX)size
+# Make-���� (from `makefile', line 149)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# ���������� � �����
+ONEDRIVE = C:\Users\DVR\OneDrive
+# ���������� � �����
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# Make-���� (from `build/timers.d', line 1)
+MAKEFILE_LIST :=  makefile build/cmsis_os.d build/croutine.d build/event_groups.d build/freertos.d build/heap_4.d build/list.d build/main.d build/port.d build/queue.d build/startup_stm32f103xb.d build/stm32f1xx_hal.d build/stm32f1xx_hal_adc.d build/stm32f1xx_hal_adc_ex.d build/stm32f1xx_hal_cortex.d build/stm32f1xx_hal_dma.d build/stm32f1xx_hal_exti.d build/stm32f1xx_hal_flash.d build/stm32f1xx_hal_flash_ex.d build/stm32f1xx_hal_gpio.d build/stm32f1xx_hal_gpio_ex.d build/stm32f1xx_hal_i2c.d build/stm32f1xx_hal_msp.d build/stm32f1xx_hal_pwr.d build/stm32f1xx_hal_rcc.d build/stm32f1xx_hal_rcc_ex.d build/stm32f1xx_hal_tim.d build/stm32f1xx_hal_tim_ex.d build/stm32f1xx_hal_uart.d build/stm32f1xx_it.d build/stream_buffer.d build/system_stm32f1xx.d build/tasks.d build/timers.d
+# Make-���� (from `makefile', line 91)
+CP = $(PREFIX)objcopy
+# Make-���� (from `makefile', line 23)
+DEBUG = 1
+# ���������� � �����
+TMP = C:\Users\DVR\AppData\Local\Temp
+# ���������� � �����
+GENICAM_GENTL64_PATH = C:\Program Files\Basler\pylon 6\Runtime\x64\;C:\Program Files\Basler\pylon 6\Runtime\x64\pylonCXP\bin\
+# Make-���� (from `makefile', line 90)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# ���������� � �����
+PROGRAMW6432 = C:\Program Files
+# ���������� � �����
+PROGRAMDATA = C:\ProgramData
+# ���������� � �����
+VSCODE_CWD = C:\Users\DVR\AppData\Local\Programs\Microsoft VS Code
+# ���������� � �����
+ESET_OPTIONS = $(subst ,,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               )
+# ���������� � �����
+NO_PROXY = 127.0.0.1
+# ���������� � �����
+SW_SIM_HYDRA = C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\
+# ���������� � �����
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ���������� � �����
+PROCESSOR_ARCHITECTURE = x86
+# ���������� � �����
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# ���������� � �����
+USERPROFILE = C:\Users\DVR
+# ���������� � �����
+ALLUSERSPROFILE = C:\ProgramData
+# ���������� � �����
+NUMBER_OF_PROCESSORS = 4
+# ���������� � �����
+ELECTRON_RUN_AS_NODE = 1
+# Make-���� (from `makefile', line 161)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# ���������� � �����
+CG_BOOST_ROOT = C:\Program Files (x86)\Embarcadero\RAD Studio\7.0\include\boost_1_39
+# �� ���������
+.FEATURES := target-specific order-only second-expansion else-if archives
+# ���������� � �����
+GENICAM_GENTL32_PATH = C:\Program Files\Basler\pylon 6\Runtime\Win32\;C:\Program Files\Basler\pylon 6\Runtime\Win32\pylonCXP\bin\
+# ��������������
+%F = $(notdir $%)
+# ���������� � �����
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10320_OITKKEADIKEBWYOI
+# ���������� � �����
+EXTRAPUTTY = C:\Program Files\ExtraPuTTY\Bin
+# Make-���� (from `makefile', line 73)
+ASM_SOURCES = startup_stm32f103xb.s
+# Make-���� (from `makefile', line 25)
+OPT = -Og
+# ���������� � �����
+COMPUTERNAME = YURI
+# ���������� � �����
+PROGRAMFILES = C:\Program Files (x86)
+# ���������� � �����
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ���������� � �����
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ���������� � �����
+USERNAME = DVR
+# ���������� � �����
+PUBLIC = C:\Users\Public
+# ���������� � �����
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ���������� � �����
+VSCODE_CODE_CACHE_PATH = C:\Users\DVR\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# ���������� � �����
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ���������� � �����
+EXTRAPUTTY_BOXSIZE = AUTO
+# ���������� � �����
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ���������� � �����
+LOGONSERVER = \\YURI
+# Make-���� (from `makefile', line 80)
+PREFIX = arm-none-eabi-
+# ���������� � �����
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ���������� � �����
+USERDOMAIN = Yuri
+# Make-���� (from `makefile', line 117)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32F103xB
+# Make-���� (from `makefile', line 110)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# ���������� � �����
+PLATFORMIO_PATH = C:\Users\DVR\.platformio\python3;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;G:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Basler\pylon 6\Runtime\x64\;C:\Program Files\Basler\pylon 6\Runtime\Win32\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Common Files\SK\SK91GigE-WIN\;C:\Program Files\Common Files\Pleora;C:\SysGCC\esp32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\LLVM\bin;C:\Program Files\Git\cmd;C:\Users\Public\Documents\Embarcadero\Studio\20.0\BPL;G:\Python_2.7.18\Scripts\;G:\Python_2.7.18\;\BPL;C:\SDCC\bin;C:\Users\DVR\AppData\Local\GitHubDesktop\bin;C:\Users\DVR\AppData\Local\Microsoft\WindowsApps;C:\Users\DVR\AppData\Local\atom\bin;C:\Users\DVR\AppData\Local\Programs\Microsoft VS Code\bin;G:\ARM_tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;G:\ARM_tools\make-3.81\bin;G:\ARM_tools\OpenOCD-20211118-0.11.0\bin;G:\ARM_tools\PortableGit-2.37.1\bin;G:\ARM_tools\PortableGit-2.37.1\usr\bin;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;G:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Basler\pylon 6\Runtime\x64\;C:\Program Files\Basler\pylon 6\Runtime\Win32\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Common Files\SK\SK91GigE-WIN\;C:\Program Files\Common Files\Pleora;C:\SysGCC\esp32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\LLVM\bin;C:\Program Files\Git\cmd;C:\Users\Public\Documents\Embarcadero\Studio\20.0\BPL;G:\Python_2.7.18\Scripts\;G:\Python_2.7.18\;\BPL;C:\SDCC\bin;C:\Users\DVR\AppData\Local\GitHubDesktop\bin;C:\Users\DVR\AppData\Local\Microsoft\WindowsApps;C:\Users\DVR\AppData\Local\atom\bin;C:\Users\DVR\AppData\Local\Programs\Microsoft VS Code\bin;G:\ARM_tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;G:\ARM_tools\make-3.81\bin;G:\ARM_tools\OpenOCD-20211118-0.11.0\bin;G:\ARM_tools\PortableGit-2.37.1\bin;G:\ARM_tools\PortableGit-2.37.1\usr\bin;
+# �� ���������
+MAKE = $(MAKE_COMMAND)
+# �� ���������
+MAKECMDGOALS := all
+# ���������� � �����
+PATH = C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;G:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Basler\pylon 6\Runtime\x64\;C:\Program Files\Basler\pylon 6\Runtime\Win32\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Common Files\SK\SK91GigE-WIN\;C:\Program Files\Common Files\Pleora;C:\SysGCC\esp32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\LLVM\bin;C:\Program Files\Git\cmd;C:\Users\Public\Documents\Embarcadero\Studio\20.0\BPL;G:\Python_2.7.18\Scripts\;G:\Python_2.7.18\;\BPL;C:\SDCC\bin;C:\Users\DVR\AppData\Local\GitHubDesktop\bin;C:\Users\DVR\AppData\Local\Microsoft\WindowsApps;C:\Users\DVR\AppData\Local\atom\bin;C:\Users\DVR\AppData\Local\Programs\Microsoft VS Code\bin;G:\ARM_tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin;G:\ARM_tools\make-3.81\bin;G:\ARM_tools\OpenOCD-20211118-0.11.0\bin;G:\ARM_tools\PortableGit-2.37.1\bin;G:\ARM_tools\PortableGit-2.37.1\usr\bin;
+# Make-���� (from `makefile', line 94)
+HEX = $(CP) -O ihex
+# Make-���� (from `makefile', line 89)
+CC = $(PREFIX)gcc
+# Make-���� (from `makefile', line 32)
+BUILD_DIR = build
+# Make-���� (from `makefile', line 139)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# �� ���������
+MAKE_VERSION := 3.81
+# Make-����
+.DEFAULT_GOAL := all
+# ���������� � �����
+ACTEL_FOR_ALTIUM_OVERRIDE = $(subst ,, )
+# ���������� � �����
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# ��������������
+%D = $(patsubst %/,%,$(dir $%))
+# Make-���� (from `makefile', line 101)
+CPU = -mcpu=cortex-m3
+# ���������� � �����
+LOCALAPPDATA = C:\Users\DVR\AppData\Local
+# ���������� � �����
+PSMODULEPATH = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\
+# �� ���������
+MAKE_COMMAND := make.exe
+# ���������� � �����
+PROCESSOR_ARCHITEW6432 = AMD64
+# Make-���� (from `makefile', line 160)
+LIBDIR = 
+# �� ���������
+.VARIABLES := 
+# ���������� � �����
+ALTERA_FOR_ALTIUM_OVERRIDE = $(subst ,, )
+# ��������������
+*F = $(notdir $*)
+# ���������� � �����
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+# ���������� � �����
+OS = Windows_NT
+# ���������� � �����
+VSCODE_IPC_HOOK = \\.\pipe\47cf9ca6cb16c21ab772ddb3f59a6a69-1.69.2-main-sock
+# ���������� � �����
+HOMEPATH = \Users\DVR
+# ���������� � �����
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ���������� � �����
+PROMPT = $P$G
+# ���������� � �����
+MFLAGS = -Rrqp
+# ��������������
+*D = $(patsubst %/,%,$(dir $*))
+# ���������� � �����
+IDF_PATH = G:\PROJECTS\ESP32\esp-idf-v4.4
+# ���������� � �����
+SYSTEMROOT = C:\WINDOWS
+# ��������������
++D = $(patsubst %/,%,$(dir $+))
+# ���������� � �����
+EXTRAPUTTY_MODE = DIR_MODE
+# ��������������
++F = $(notdir $+)
+# ���������� � �����
+WINDOWS_TRACING_LOGFILE = C:\BVTBin\Tests\installpackage\csilogfile.log
+# ���������� � �����
+APPDATA = C:\Users\DVR\AppData\Roaming
+# ���������� � �����
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# ���������� � �����
+TEMP = C:\Users\DVR\AppData\Local\Temp
+# Make-���� (from `makefile', line 127)
+C_INCLUDES = -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -IMiddlewares/Third_Party/FreeRTOS/Source/include -IMiddlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/CMSIS/Include
+# ���������� � �����
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# �� ���������
+MAKEFILES := 
+# ���������� � �����
+ARMGCC_DIR = G:\ARM_tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin
+# ��������������
+<F = $(notdir $<)
+# ���������� � �����
+PLATFORMIO_CALLER = vscode
+# ���������� � �����
+WINDOWS_TRACING_FLAGS = 3
+# ���������� � �����
+LC_ALL = C
+# ���������� � �����
+SW_SIM_TEMP = C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\
+# Make-���� (from `makefile', line 159)
+LIBS = -lc -lm -lnosys 
+# ��������������
+^F = $(notdir $^)
+# Make-���� (from `makefile', line 38)
+C_SOURCES = Core/Src/main.c Core/Src/freertos.c Core/Src/stm32f1xx_it.c Core/Src/stm32f1xx_hal_msp.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c Core/Src/system_stm32f1xx.c Middlewares/Third_Party/FreeRTOS/Source/croutine.c Middlewares/Third_Party/FreeRTOS/Source/event_groups.c Middlewares/Third_Party/FreeRTOS/Source/list.c Middlewares/Third_Party/FreeRTOS/Source/queue.c Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c Middlewares/Third_Party/FreeRTOS/Source/tasks.c Middlewares/Third_Party/FreeRTOS/Source/timers.c Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c  
+# �� ���������
+SUFFIXES := 
+# ���������� � �����
+SYSTEMDRIVE = C:
+# ���������� � �����
+SESSIONNAME = Console
+# ���������� � �����
+PROCESSOR_REVISION = 5e03
+# ���������� � �����
+SW_SIM_MPIT = INTELMPI
+# ���������� � �����
+MAKELEVEL := 0
+# Make-���� (from `makefile', line 174)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# ���������� � �����
+LANG = C
+# ���������� � �����
+PROCESSOR_LEVEL = 6
+# ���������� � �����
+GENICAM_CLPROTOCOL = C:\Program Files\Basler\pylon 6\Runtime\CLProtocol\
+# ���������� � �����
+VSCODE_PID = 10320
+# ���������� � �����
+NO_XILINX_DATA_LICENSE = HIDDEN
+# ���������� � �����
+USERDOMAIN_ROAMINGPROFILE = Yuri
+# variable set hash-table stats:
+# Load=133/1024=13%, Rehash=0, Collisions=15/254=6%
+
+# Pattern-specific Variable Values
+
+# ��� �������� ���������� ��������� ��� �����
+
+# ��������
+
+# C:\Program Files\Common Files\Pleora (���� C:/Program Files/Common Files/Pleora, ����� ����������� 1594734188): 53 ������,��� ������������ �����.
+# C:\Program Files\LLVM\bin (���� C:/Program Files/LLVM/bin, ����� ����������� 1616873766): 109 ������,��� ������������ �����.
+# C:\Program Files\Basler\pylon 6\Runtime\Win32\ (���� C:/Program Files/Basler/pylon 6/Runtime/Win32/, ����� ����������� 1611230258): 31 ������,��� ������������ �����.
+# C:\Program Files\Common Files\SK\SK91GigE-WIN\ (���� C:/Program Files/Common Files/SK/SK91GigE-WIN/, ����� ����������� 1594734188): 5 ������,��� ������������ �����.
+# G:\Python_2.7.18\ (���� G:/Python_2.7.18/, ����� ����������� 1659625584): 16 ������,��� ������������ �����.
+# C:\SDCC\bin (���� C:/SDCC/bin, ����� ����������� 1494002263): 34 ������,��� ������������ �����.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (���� C:/WINDOWS/System32/WindowsPowerShell/v1.0/, ����� ����������� 1605754498): 31 ������,��� ������������ �����.
+# C:\WINDOWS\System32\Wbem (���� C:/WINDOWS/System32/Wbem, ����� ����������� 1657742084): 170 ������,��� ������������ �����.
+# . (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test, ����� ����������� 1659624792): 12 ������,��� ������������ �����.
+# C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\ (���� C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/, ����� ����������� 1593785013): 73 ������,��� ������������ �����.
+# Core/Src (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/Core/Src, ����� ����������� 1657818840): 7 ������,��� ������������ �����.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (���� C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����� ����������� 1648040653): 11 ������,��� ������������ �����.
+# C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ (���� C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/, ����� ����������� 1612790334): 12 ������,��� ������������ �����.
+# \BPL: ���������� �������� �������� ������� stat.
+# C:\Program Files\Microsoft SQL Server\120\DTS\Binn\ (���� C:/Program Files/Microsoft SQL Server/120/DTS/Binn/, ����� ����������� 1612790349): 38 ������,��� ������������ �����.
+# C:\Program Files\IVI Foundation\VISA\Win64\Bin\ (���� C:/Program Files/IVI Foundation/VISA/Win64/Bin/, ����� ����������� 1610637073): 9 ������,��� ������������ �����.
+# G:\ARM_tools\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin (���� G:/ARM_tools/gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi/bin, ����� ����������� 1645688018): 33 ������,��� ������������ �����.
+# C:\Program Files\Basler\pylon 6\Runtime\x64\ (���� C:/Program Files/Basler/pylon 6/Runtime/x64/, ����� ����������� 1611230258): 31 ������,��� ������������ �����.
+# build (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/build, ����� ����������� 1659624818): 104 ������,��� ������������ �����.
+# Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS, ����� ����������� 1657818840): 4 ������,��� ������������ �����.
+# C:\Users\DVR\AppData\Local\atom\bin (���� C:/Users/DVR/AppData/Local/atom/bin, ����� ����������� 1616873355): 6 ������,��� ������������ �����.
+# G:\Program Files (x86)\VMware\VMware Workstation\bin\ (���� G:/Program Files (x86)/VMware/VMware Workstation/bin/, ����� ����������� 1643561517): 4 ������,��� ������������ �����.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\ (���� C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/, ����� ����������� 1612790349): 6 ������,��� ������������ �����.
+# C:\WINDOWS\System32\OpenSSH\: ���������� �������� �������� ������� stat.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (���� C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����� ����������� 1658746335): 5 ������,��� ������������ �����.
+# G:\ARM_tools\make-3.81\bin (���� G:/ARM_tools/make-3.81/bin, ����� ����������� 1657997737): 5 ������,��� ������������ �����.
+# C:\WINDOWS (���� C:/WINDOWS, ����� ����������� 1613550994): 138 ������,��� ������������ �����.
+# Middlewares/Third_Party/FreeRTOS/Source (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/Middlewares/Third_Party/FreeRTOS/Source, ����� ����������� 1657818840): 14 ������,��� ������������ �����.
+# Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang, ����� ����������� 1657818840): 7 ������,��� ������������ �����.
+# G:\ARM_tools\PortableGit-2.37.1\bin (���� G:/ARM_tools/PortableGit-2.37.1/bin, ����� ����������� 1657999286): 5 ������,��� ������������ ����� �� ������� ������.
+# C:\Users\DVR\AppData\Local\Programs\Microsoft VS Code\bin (���� C:/Users/DVR/AppData/Local/Programs/Microsoft VS Code/bin, ����� ����������� 1659607645): 4 ������,��� ������������ �����.
+# G:\Python_2.7.18\Scripts\ (���� G:/Python_2.7.18/Scripts/, ����� ����������� 1659625586): 7 ������,��� ������������ �����.
+# C:\SysGCC\esp32\bin: ���������� �������� �������� ������� stat.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\ (���� C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/, ����� ����������� 1610637069): 10 ������,��� ������������ �����.
+# C:\Users\Public\Documents\Embarcadero\Studio\20.0\BPL (���� C:/Users/Public/Documents/Embarcadero/Studio/20.0/BPL, ����� ����������� 1555530207): 2 ������,��� ������������ �����.
+# C:\Program Files\Microsoft SQL Server\120\Tools\Binn\ (���� C:/Program Files/Microsoft SQL Server/120/Tools/Binn/, ����� ����������� 1612790334): 14 ������,��� ������������ �����.
+# G:\ARM_tools\OpenOCD-20211118-0.11.0\bin (���� G:/ARM_tools/OpenOCD-20211118-0.11.0/bin, ����� ����������� 1637274187): 7 ������,��� ������������ �����.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin (���� C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin, ����� ����������� 1610637069): 10 ������,��� ������������ �����.
+# C:\Program Files\Git\cmd (���� C:/Program Files/Git/cmd, ����� ����������� 1620552235): 8 ������,��� ������������ �����.
+# C:\WINDOWS\system32 (���� C:/WINDOWS/system32, ����� ����������� 1659624654): 3432 ������,��� ������������ �����.
+# C:\Users\DVR\AppData\Local\GitHubDesktop\bin (���� C:/Users/DVR/AppData/Local/GitHubDesktop/bin, ����� ����������� 1549269334): 4 ������,��� ������������ �����.
+# Drivers/STM32F1xx_HAL_Driver/Src (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/Drivers/STM32F1xx_HAL_Driver/Src, ����� ����������� 1657818839): 63 ������,��� ������������ �����.
+# C:\Users\DVR\AppData\Local\Microsoft\WindowsApps (���� C:/Users/DVR/AppData/Local/Microsoft/WindowsApps, ����� ����������� 1658208844): 13 ������,��� ������������ �����.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (���� C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, ����� ����������� 1564602592): 5 ������,��� ������������ �����.
+# Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 (���� g:/PROJECTS/NUVOTON/New_Git_NVRM/cmake_test/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3, ����� ����������� 1657818840): 4 ������,��� ������������ �����.
+
+# 4556 ������,��� impossibilities in 45 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/%.o: %.s Makefile | build
+#  �������, ������� ������� ���������  (�� `makefile', ������ 181):
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+build/%.hex: build/%.elf | build
+#  �������, ������� ������� ���������  (�� `makefile', ������ 188):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  �������, ������� ������� ���������  (�� `makefile', ������ 191):
+	$(BIN) $< $@	
+	
+
+# ������� ������: 4, ������������: 0 (0,0%).
+
+# �����
+
+# �� �������� �����:
+build/stm32f1xx_hal_gpio_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:13
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/timers.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:28
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_rcc_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:15
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_msp.o: Core/Src/stm32f1xx_hal_msp.c makefile Core/Src/stm32f1xx_hal_msp.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_msp'
+#  ����� ���������� ��������� 2022-08-04 17:53:13
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/main.o: Core/Src/main.c makefile Core/Src/main.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `main'
+#  ����� ���������� ��������� 2022-08-04 17:53:12
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f1xx_hal_gpio.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_gpio'
+#  ����� ���������� ��������� 2022-08-04 17:53:16
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Core/Src/stm32f1xx_it.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:57
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal'
+#  ����� ���������� ��������� 2022-08-04 17:53:15
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: build/IEOS_demo_v0.elf build/IEOS_demo_v0.hex build/IEOS_demo_v0.bin
+#  ����, ���������� �� ��������� ������.
+#  ������������ ����� ������� ������
+#  ���� �� ����������.
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_i2c.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:18
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/heap_4.o: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c makefile Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `heap_4'
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f1xx_hal_rcc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_rcc'
+#  ����� ���������� ��������� 2022-08-04 17:53:15
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stream_buffer.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:34
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/queue.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:33
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/freertos.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:12
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_uart.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:29
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+.DEFAULT:
+#  ����� ������� ������ �� ������������.
+#  ����� ��������� �� ���� �� �����������.
+#  ���� �� ��� ��������.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_exti.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_exti'
+#  ����� ���������� ��������� 2022-08-04 17:53:18
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/startup_stm32f103xb.o: startup_stm32f103xb.s makefile startup_stm32f103xb.s | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `startup_stm32f103xb'
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 181):
+	$(AS) -c $(CFLAGS) $< -o $@
+	
+
+Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/system_stm32f1xx.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Core/Src/freertos.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:57
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/event_groups.o: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c makefile Middlewares/Third_Party/FreeRTOS/Source/event_groups.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `event_groups'
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_it.o: Core/Src/stm32f1xx_it.c makefile Core/Src/stm32f1xx_it.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h Core/Inc/stm32f1xx_it.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_it'
+#  ����� ���������� ��������� 2022-08-04 17:53:13
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+build/stm32f1xx_hal_adc.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:13
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_tim.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:29
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_gpio_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_gpio_ex'
+#  ����� ���������� ��������� 2022-08-04 17:53:13
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/list.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Core/Inc/stm32f1xx_hal_conf.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:58
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/port.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+makefile:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:14:03
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build:
+#  ����� ������� ������ �� ������������.
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+#  �������, ������� ������� ���������  (�� `makefile', ������ 194):
+	mkdir $@		
+	
+
+build/stm32f1xx_hal_rcc_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_rcc_ex'
+#  ����� ���������� ��������� 2022-08-04 17:53:15
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+build/stm32f1xx_hal_pwr.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:17
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_i2c.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_i2c'
+#  ����� ���������� ��������� 2022-08-04 17:53:28
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stream_buffer.o: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c makefile Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stream_buffer'
+#  ����� ���������� ��������� 2022-08-04 17:53:34
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+build/stm32f1xx_hal_flash_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:17
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:28
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/queue.o: Middlewares/Third_Party/FreeRTOS/Source/queue.c makefile Middlewares/Third_Party/FreeRTOS/Source/queue.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `queue'
+#  ����� ���������� ��������� 2022-08-04 17:53:33
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/freertos.o: Core/Src/freertos.c makefile Core/Src/freertos.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driv 
+er/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `freertos'
+#  ����� ���������� ��������� 2022-08-04 17:53:12
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f1xx_hal_uart.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_uart'
+#  ����� ���������� ��������� 2022-08-04 17:53:31
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+build/stm32f1xx_hal_flash.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:17
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/cmsis_os.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/timers.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_dma.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:16
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_adc_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:14
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_tim_ex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:29
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+.SUFFIXES:
+#  ����� ������� ������ �� ������������.
+#  ����� ��������� �� ���� �� �����������.
+#  ���� �� ��� ��������.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/croutine.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Core/Src/system_stm32f1xx.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/IEOS_demo_v0.bin: build/IEOS_demo_v0.elf | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `IEOS_demo_v0'
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 191):
+	$(BIN) $< $@	
+	
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_adc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_adc'
+#  ����� ���������� ��������� 2022-08-04 17:53:14
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f1xx_hal_tim.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_tim'
+#  ����� ���������� ��������� 2022-08-04 17:53:29
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/system_stm32f1xx.o: Core/Src/system_stm32f1xx.c makefile Core/Src/system_stm32f1xx.c Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `system_stm32f1xx'
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/port.o: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c makefile Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `port'
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+build/tasks.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:34
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:14
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_cortex.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:16
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_pwr.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_pwr'
+#  ����� ���������� ��������� 2022-08-04 17:53:17
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Core/Inc/main.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:58
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/IEOS_demo_v0.hex: build/IEOS_demo_v0.elf | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `IEOS_demo_v0'
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 188):
+	$(HEX) $< $@
+	
+
+clean:
+#  ����� ������� ������ �� ������������.
+#  ����� ��������� �� ���� �� �����������.
+#  ���� �� ��� ��������.
+#  �������, ������� ������� ���������  (�� `makefile', ������ 200):
+	-rm -fR $(BUILD_DIR)
+	
+
+# �� �������� �����:
+build/list.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/cmsis_version.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:25
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/core_cm3.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:25
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/cmsis_gcc.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:25
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_flash.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_flash'
+#  ����� ���������� ��������� 2022-08-04 17:53:17
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/cmsis_os.o: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c makefile Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Drivers/CMSIS/Include/cmsis_gcc.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `cmsis_os'
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_msp.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:13
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_flash_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_flash_ex'
+#  ����� ���������� ��������� 2022-08-04 17:53:17
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+build/main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:12
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_gpio.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:16
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_dma.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_dma'
+#  ����� ���������� ��������� 2022-08-04 17:53:16
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f1xx_hal_adc_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_adc_ex'
+#  ����� ���������� ��������� 2022-08-04 17:53:14
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/stm32f1xx_hal_tim_ex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_tim_ex'
+#  ����� ���������� ��������� 2022-08-04 17:53:29
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/queue.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+ 
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/heap_4.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_rcc.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:15
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/croutine.o: Middlewares/Third_Party/FreeRTOS/Source/croutine.c makefile Middlewares/Third_Party/FreeRTOS/Source/croutine.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `croutine'
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+build/IEOS_demo_v0.elf: build/main.o build/freertos.o build/stm32f1xx_it.o build/stm32f1xx_hal_msp.o build/stm32f1xx_hal_gpio_ex.o build/stm32f1xx_hal_adc.o build/stm32f1xx_hal_adc_ex.o build/stm32f1xx_hal.o build/stm32f1xx_hal_rcc.o build/stm32f1xx_hal_rcc_ex.o build/stm32f1xx_hal_gpio.o build/stm32f1xx_hal_dma.o build/stm32f1xx_hal_cortex.o build/stm32f1xx_hal_pwr.o build/stm32f1xx_hal_flash.o build/stm32f1xx_hal_flash_ex.o build/stm32f1xx_hal_exti.o build/stm32f1xx_hal_i2c.o build/stm32f1xx_hal_tim.o build/stm32f1xx_hal_tim_ex.o build/stm32f1xx_hal_uart.o build/system_stm32f1xx.o build/croutine.o build/event_groups.o build/list.o build/queue.o build/stream_buffer.o build/tasks.o build/timers.o build/cmsis_os.o build/heap_4.o build/port.o build/startup_stm32f103xb.o makefile
+#  ����� ������� ������ �� ������������.
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 184):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+	
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Core/Src/stm32f1xx_hal_msp.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:58
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Core/Src/main.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:34:10
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/timers.o: Middlewares/Third_Party/FreeRTOS/Source/timers.c makefile Middlewares/Third_Party/FreeRTOS/Source/timers.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/queue.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `timers'
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Core/Inc/stm32f1xx_it.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:57
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_hal_exti.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:18
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Include/cmsis_compiler.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:25
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/startup_stm32f103xb.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:38
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/tasks.o: Middlewares/Third_Party/FreeRTOS/Source/tasks.c makefile Middlewares/Third_Party/FreeRTOS/Source/tasks.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h Middlewares/Third_Party/FreeRTOS/Source/include/timers.h Middlewares/Third_Party/FreeRTOS/Source/include/task.h Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `tasks'
+#  ����� ���������� ��������� 2022-08-04 17:53:37
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/stm32f1xx_hal_cortex.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h Core/Inc/stm32f1xx_hal_conf.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `stm32f1xx_hal_cortex'
+#  ����� ���������� ��������� 2022-08-04 17:53:16
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+# �� �������� �����:
+startup_stm32f103xb.s:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Core/Inc/FreeRTOSConfig.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-07-14 20:13:57
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:27
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:28
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build/list.o: Middlewares/Third_Party/FreeRTOS/Source/list.c makefile Middlewares/Third_Party/FreeRTOS/Source/list.c Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h Core/Inc/FreeRTOSConfig.h Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h Middlewares/Third_Party/FreeRTOS/Source/include/portable.h Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h Middlewares/Third_Party/FreeRTOS/Source/include/list.h | build
+#  ������������ ����� ������� ������
+#  ������ �������� ��� ������������ �������: `list'
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  �������, ������� ������� ���������  (�� `makefile', ������ 178):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+	
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:39
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+Middlewares/Third_Party/FreeRTOS/Source/queue.c:
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2021-09-10 14:51:28
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/event_groups.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:32
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �� �������� �����:
+build/stm32f1xx_it.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������������ ����� ������� ������
+#  ����� ���������� ��������� 2022-08-04 17:53:12
+#  ���� ��� ��������.
+#  ������� ���������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=153/1024=15%, Rehash=0, Collisions=161/2227=7%
+# ���� ������ VPATH
+
+vpath %.c Core/Src;Drivers/STM32F1xx_HAL_Driver/Src;Middlewares/Third_Party/FreeRTOS/Source;Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3;Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang
+
+# 1 ����� ������ �� `vpath'
+
+# �� ��������� ����� (���������� `VPATH') ���� ������.
+
+# # of strings in strcache: 34
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3332 / max = 3332 / min = 3332 / avg = 3332
+
+# ������ ���� ������ Make ��������� Thu Aug 04 18:06:56 2022
+
+ 
